@@ -1,21 +1,24 @@
-img.logo {
-    width: 11vw;
+.example-spacer {
+    flex: 1 1 auto;
 }
-.nav_logo {
-    padding: 55px;
+  img.logo {
+    width: 60vw;
 }
-.navbar {
-    padding-top: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #132737;
-    height: auto;
-}
-mat-toolbar.container-header {
+mat-toolbar.containerHeader {
     background-color: #132737;
     width: 100%;
     height: 115px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.navLogo, .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 0px 20px 0px 60px;
 }
 
 
